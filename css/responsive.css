@@ -1,9 +1,12 @@
 /* Soluzione qui */
+
+/* TABLET */
 @media screen and (min-width: 768px) {
 
     /* LAYOUT */
     .container {
         max-width: 90%;
+        padding-top: 25px;
     }
 
     /* HEADER */
@@ -12,10 +15,9 @@
     }
 
 
-    /* RECIPE */
     /* Recipe Section */
     .recipe-title {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .recipe-origin {
@@ -34,7 +36,7 @@
     }
 
     /* Social Network Buttons */
-    .btn {
+    .social-networks .btn {
         width: 30%;
     }
 
@@ -49,5 +51,56 @@
         margin-right: 10px;
     }
 
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+
+    /* LAYOUT */
+
+    .container {
+        padding-bottom: 50px;
+    }
+
+    /* Recipe Section */
+
+    .recipe-title {
+        font-size: 1.5rem;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 75%;
+    }
+
+    .quick-notes ul {
+        flex-direction: column;
+        gap: 0 0;
+    }
+
+    .quick-notes ul li {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    /* Social Network buttons */
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    address {
+        text-align: left;
+    }
 
 }
