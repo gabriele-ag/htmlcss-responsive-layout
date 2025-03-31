@@ -1,0 +1,53 @@
+/* Soluzione qui */
+@media screen and (min-width: 768px) {
+
+    /* LAYOUT */
+    .container {
+        max-width: 90%;
+    }
+
+    /* HEADER */
+    #topbar {
+        justify-content: flex-start;
+    }
+
+
+    /* RECIPE */
+    /* Recipe Section */
+    .recipe-title {
+        font-size: 1.4rem;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 20px;
+    }
+    
+    .quick-notes ul li {
+        width: 30%;
+        font-size: 0.8rem;
+    }
+
+    /* Social Network Buttons */
+    .btn {
+        width: 30%;
+    }
+
+    /* Advertisement banner */
+    .ads {
+        display: block;
+    }
+
+    /* Recipe Presentation */
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
+
+
+}
