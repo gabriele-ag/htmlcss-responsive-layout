@@ -1,5 +1,22 @@
 /* Soluzione qui */
 
+
+/* LARGE MOBILE */
+@media screen and (min-width: 576px) {
+
+    /* Social Network buttons */
+    .social-networks .btn {
+        width: 30%;
+    }
+
+    /* Recipe Presentazion */
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
+
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
 
