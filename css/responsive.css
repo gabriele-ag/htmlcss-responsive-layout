@@ -92,6 +92,8 @@
 
     .recipe-video {
         width: 75%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 
     .quick-notes ul {
